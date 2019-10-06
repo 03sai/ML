@@ -16,7 +16,7 @@ from threading import Thread
 import cv2
 
 model_dir = '/tmp/imagenet'
-DATA_URL = 'http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_kitti_2018_01_28.tar.gz'
+DATA_URL = 'http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_2018_01_28.tar.gz'
 
 
 # Threaded class for performance improvement
